@@ -13,7 +13,7 @@ export default function Hero() {
           playsInline
           preload="metadata"
           className="w-full h-full object-cover"
-          loading='lazy'
+          loading='lazyx'
         >
           <source src={heroVideo} type="video/mp4" />
         </video>

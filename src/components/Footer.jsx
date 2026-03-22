@@ -4,8 +4,8 @@ import { useState } from 'react';
 import { Link } from 'react-router-dom';
 
 export default function Footer() {
-  const [showPrivacy, setShowPrivacy] = useState("false")
-  const [termCondition, setShowTermCondition] = useState("false")
+  const [showPrivacy, setShowPrivacy] = useState(false)
+  const [termCondition, setShowTermCondition] = useState(false)
   return (
     <>
 

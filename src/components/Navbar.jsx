@@ -56,7 +56,7 @@ export default function Navbar() {
             <Link to="#packages" className="block text-gray-800 hover:text-teal-600 font-medium">Packages</Link>
             <Link to="#gallery" className="block text-gray-800 hover:text-teal-600 font-medium">Gallery</Link>
             <Link to="#contact" className="block text-gray-800 hover:text-teal-600 font-medium">Contact</Link>
-            <button className="w-fullbg-primary-gradient text-white px-6 py-3 rounded-full font-semibold mt-4">
+            <button className="w-full bg-primary-gradient text-white px-6 py-3 rounded-full font-semibold mt-4">
               Book Now
             </button>
           </div>
