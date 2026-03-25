@@ -18,7 +18,7 @@ export default function About() {
                 className="w-full h-full object-cover"
               />
             </div>
-            <div className="absolute -bottom-8 -right-8 bg-white rounded-2xl shadow-xl p-6 max-w-xs">
+            <div className="absolute -bottom-8 -right-2 md:-right-8 bg-white rounded-2xl shadow-xl p-3  md:p-6 max-w-xs">
               <div className="flex items-center space-x-4">
                 <div className="w-16 h-16  bg-primary-gradient  rounded-full flex items-center justify-center">
                   <Award className="w-8 h-8 text-white" />

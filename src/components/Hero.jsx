@@ -28,7 +28,7 @@ export default function Hero() {
             </span>
           </h1>
 
-          <p className="text-lg text-gray-100 max-w-3xl mx-auto leading-relaxed">
+          <p className=" text-base  md:text-lg text-gray-100 max-w-3xl mx-auto leading-relaxed">
             Embark on unforgettable journeys to the world's most breathtaking locations.
             Create memories that last a lifetime with our curated luxury travel experiences.
           </p>
