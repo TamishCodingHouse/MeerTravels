@@ -20,12 +20,12 @@ export default function About() {
             </div>
             <div className="absolute -bottom-8 -right-2 md:-right-8 bg-white rounded-2xl shadow-xl p-3  md:p-6 max-w-xs">
               <div className="flex items-center space-x-4">
-                <div className="w-16 h-16  bg-primary-gradient  rounded-full flex items-center justify-center">
-                  <Award className="w-8 h-8 text-white" />
+                <div className=" h-10 w-10 md:w-16 md:h-16  bg-primary-gradient  rounded-full flex items-center justify-center">
+                  <Award className="w-6 h-6 md:w-8 md:h-8 text-white" />
                 </div>
                 <div>
-                  <p className="text-3xl font-bold text-gray-800">5+</p>
-                  <p className="text-gray-600">Years Experience</p>
+                  <p className="text-3xl font-bold text-[#F6AA09]">5+</p>
+                  <p className="text-gray-600 font-semibold">Years <span className='text-[#F6AA09]'>Experience</span></p>
                 </div>
               </div>
             </div>

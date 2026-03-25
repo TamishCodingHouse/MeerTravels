@@ -27,15 +27,14 @@ export default function Navbar() {
   return (
     <nav
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 
-        ${
-          isScrolled
-            ? "bg-white/70 backdrop-blur-md shadow-md border-b border-gray-200"
-            : "bg-transparent"
+        ${isScrolled
+          ? "bg-white/70 backdrop-blur-md shadow-md border-b border-gray-200"
+          : "bg-transparent"
         }`}
     >
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-20">
-          
+
           {/* Logo */}
           <div className="flex items-center space-x-3">
             <Link to="/">
@@ -84,7 +83,7 @@ export default function Navbar() {
             {isOpen ? (
               <X className="w-6 h-6" />
             ) : (
-              <Menu className="w-8 h-8" />
+              <Menu className={`w-8 h-8 text-black`} />
             )}
           </button>
 

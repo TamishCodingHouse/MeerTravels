@@ -4,7 +4,7 @@ export default function BookingForm() {
   return (
     <div className="relative z-10 -mt-16 max-w-6xl mx-auto px-4">
       <div className="bg-white/70 rounded-2xl shadow-2xl p-8 backdrop-blur-sm">
-        <h3 className="text-2xl font-bold text-gray-800 mb-6">Find Your Perfect Adventure</h3>
+        <h3 className="text-2xl font-bold text-gray-800 mb-6">Find Your Perfect <span className='text-[#F6AA09]'>Adventure</span></h3>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
           <div className="relative">
             <label className="block text-sm font-medium text-gray-700 mb-2">Destination</label>
@@ -13,7 +13,7 @@ export default function BookingForm() {
               <input
                 type="text"
                 placeholder="Where to?"
-                className="w-full pl-11 pr-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-teal-500 focus:border-transparent outline-none transition-all"
+                className="w-full pl-11 pr-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#F6AA09] focus:border-transparent outline-none transition-all"
               />
             </div>
           </div>
@@ -24,7 +24,7 @@ export default function BookingForm() {
               <Calendar className="absolute left-3 top-1/2 -translate-y-1/2 w-5 h-5 text-gray-400" />
               <input
                 type="date"
-                className="w-full pl-11 pr-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-teal-500 focus:border-transparent outline-none transition-all"
+                className="w-full pl-11 pr-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#F6AA09] focus:border-transparent outline-none transition-all"
               />
             </div>
           </div>
@@ -33,7 +33,7 @@ export default function BookingForm() {
             <label className="block text-sm font-medium text-gray-700 mb-2">Guests</label>
             <div className="relative">
               <Users className="absolute left-3 top-1/2 -translate-y-1/2 w-5 h-5 text-gray-400" />
-              <select className="w-full pl-11 pr-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-teal-500 focus:border-transparent outline-none transition-all appearance-none">
+              <select className="w-full pl-11 pr-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#F6AA09] focus:border-transparent outline-none transition-all appearance-none">
                 <option>1 Guest</option>
                 <option>2 Guests</option>
                 <option>3 Guests</option>
